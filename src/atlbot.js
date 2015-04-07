@@ -9,6 +9,7 @@ var Log = require('log'); // import from node_modules folder
 
 var logger = new Log();
 
+var token = '--ENTER YOUR TOKEN--',
     autoReconnect = true,
     autoMark = true;
 	
@@ -61,5 +62,4 @@ function onMessage(message){
 function onError(error){
 	logger.error('Error: %s', error);
 }
-
 
