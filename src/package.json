@@ -1,0 +1,29 @@
+{
+  "name": "atlbot",
+  "version": "0.0.1",
+  "author": {
+    "name": "Ryan Manns"
+  },
+  "keywords": [
+    "slack"
+  ],
+  "description": "A custom bot for Slack",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-release": "~0.6.0"
+  },
+  "main": "./atlbot",
+  "engines": {
+    "node": ">=0.4.7"
+  },
+  "dependencies": {
+    "log": "1.4.0",
+    "slack-client": "~1.4.0"
+  }
+}
