@@ -1,11 +1,11 @@
 //
 // To run :
 //  > npm install
-// 	> node atlbot
+//  > node atlbot
 
 var slackClient = require('slack-client'),	// import from node_modules folder
-	log = require('log'),					// import from node_modules folder
-	http = require('http'),					// import node's http module
+	log = require('log'),			// import from node_modules folder
+	http = require('http'),			// import node's http module
 	querystring = require('querystring');	// import node's querystring module
 
 var logger = new log();
