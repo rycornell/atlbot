@@ -141,6 +141,7 @@ function sendToMessageHandler(message) {
     var postData = querystring.stringify(params);
 
     var options = {
+        hostname: 'localhost',
         port: 80,
         path: '/api/AtlBot',
         method: 'POST',
